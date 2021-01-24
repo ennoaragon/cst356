@@ -12,8 +12,7 @@ function  initializeStudents(){
 
 
 function displayStudents(x) {
-
-  var tableRows = "";
+  var tableRows = " <tr class=tableheading><th>Student Name</th>  <th>Student ID</th><th>Email Address</th></tr>";
   for (i = 0; i < x.length; i++) {
       var name = x[i].name;
       var id = x[i].id;

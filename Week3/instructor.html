@@ -20,6 +20,8 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 </style>
+<script src="scripts//instructors.js">
+</script>
 </head>
 <body>
 
@@ -28,14 +30,11 @@ tr:nth-child(even) {
   <li> <a href="./index.html">Home</a></li>
   <li> <a href="./login.html">Login</a></li>
 </ul>
-<table >
-  <tr class="tableheading">
-    <th>First Name</th>
-    <th>Middle Initial</th>
-    <th>Last Name</th>
-  </tr>
-  <tr>
-    <td>Alfreds </td>
+<table id="instructor-table">
+    <script>initializeInstructors()</script>
+
+  <!-- <tr>
+    <td>Alfreds </td>s
     <td>Anders</td>
     <td>Futterkiste</td>
   </tr>
@@ -53,7 +52,7 @@ tr:nth-child(even) {
     <td>Helen</td>
     <td>Heather</td>
     <td>Bennett</td>
-  </tr>
+  </tr> -->
 </table>
 
 </body>
