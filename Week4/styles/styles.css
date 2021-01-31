@@ -1,0 +1,50 @@
+html body * {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
+}
+
+#home-heading{
+  color: green;
+  font-size: 30px;
+}
+
+.headings {
+  color: rgb(177, 26, 6);
+  font-size: 24px;
+}
+
+.para1 {
+  color: rgb(32, 144, 144);
+  font-size: 14px;
+}
+
+.para2 {
+  color: rgb(97, 79, 0);
+  font-weight: 24px;
+}
+
+.tableheading{
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.error-msg{
+  color: red;
+}

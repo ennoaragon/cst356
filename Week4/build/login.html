@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     
+    <!-- inject:css -->
+    <link rel="stylesheet" href="styles/app.min.css">
+    <!-- endinject -->
+  </head>
+  <body>
+    <h2 class="headings">Login Lab1</h2>
+    <ul>
+      <li> <a href="index.html">Home</a></li>
+      <li> <a href="./instructor.html">Instructor Page</a></li>
+    </ul>
+    <form >
+      <div >
+        First name:
+        <input type="text" id="fname" name="fname" value=""/>
+        <span id='first-name-error' class='error-msg' style='visibility:hidden'>Please enter first name.</span>
+      </div>
+      <div>
+      Password:
+        <input type="password" id="password" name="password" value=""/>
+        <span id='password-error' class='error-msg' style='visibility:hidden'>Please enter your password.</span>
+      </div>
+      <input type="button" value="Login" onclick="validate()"/>
+    </form> 
+
+       <!-- inject:js -->
+      <script src="scripts/app.min.js"></script>
+      <!-- endinject -->
+  </body> 
+</html>
